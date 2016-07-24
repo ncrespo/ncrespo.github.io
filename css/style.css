@@ -1,0 +1,72 @@
+body {
+
+	background-color: #18ACDE;
+	background-image: url(../images/GiliT.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: helvetica, Arial, sans-serif;
+}
+
+.main {
+background-color: #DE18CD;
+	max-width: 600px;
+	margin: auto;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px white;
+
+
+}
+ 
+h1 {
+font-family: 'Muli', sans-serif;
+ text-align: center;
+margin-bottom: 0 }
+
+h2 {text-align: center;
+margin-top: 0 }
+
+h3 {
+	margin-bottom: 0;
+	cursor: pointer;
+
+}
+
+h3:first-of-type {text-align: center;}
+
+.js h3 + * {
+	display: none;
+}
+
+img { 
+	border: 10px solid black;
+	border-radius: 50%; 
+	display: block;
+	margin: auto;
+
+	 }
+
+	 p,
+	 ul,
+	 ol {
+	 	line-height: 1.5;
+	 	list-style: none;
+	 	padding-left: 0;
+	 }
+
+	 li {color: white;
+	 }
+
+	 a {font-family: verdana;
+	 	font-weight: bolder;
+	 	font-size: 25pt;
+	 	transition: color 500ms;
+	  }
+
+	  a:hover { color: yellow; }
+
+	  }
+
+
+
